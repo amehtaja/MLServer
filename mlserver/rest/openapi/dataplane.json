@@ -4,9 +4,9 @@
     "title": "Data Plane",
     "version": "2.0",
     "contact": {
-      "name": "Seldon Technologies Ltd.",
-      "url": "https://www.seldon.io/",
-      "email": "hello@seldon.io"
+      "name": "The KServe Authors",
+      "url": "https://kserve.github.io/",
+      "email": "kserve-technical-discuss@lists.lfaidata.foundation"
     },
     "description": "REST protocol to interact with inference servers.",
     "license": {
@@ -24,7 +24,7 @@
           }
         },
         "operationId": "server-live",
-        "description": "The “server live” API indicates if the inference server is able to receive and respond to metadata and inference requests. The “server live” API can be used directly to implement the Kubernetes `livenessProbe`.",
+        "description": "The \u201cserver live\u201d API indicates if the inference server is able to receive and respond to metadata and inference requests. The \u201cserver live\u201d API can be used directly to implement the Kubernetes `livenessProbe`.",
         "tags": [
           "health",
           "server"
@@ -44,7 +44,7 @@
           }
         },
         "operationId": "server-ready",
-        "description": "The “server ready” health API indicates if all the models are ready for inferencing. The “server ready” health API can be used directly to implement the Kubernetes readinessProbe."
+        "description": "The \u201cserver ready\u201d health API indicates if all the models are ready for inferencing. The \u201cserver ready\u201d health API can be used directly to implement the Kubernetes readinessProbe."
       }
     },
     "/v2/models/{model_name}/versions/{model_version}/ready": {
@@ -78,7 +78,7 @@
           }
         },
         "operationId": "model-version-ready",
-        "description": "The “model ready” health API indicates if a specific model is ready for inferencing. The model name and (optionally) version must be available in the URL. If a version is not provided the server may choose a version based on its own policies."
+        "description": "The \u201cmodel ready\u201d health API indicates if a specific model is ready for inferencing. The model name and (optionally) version must be available in the URL. If a version is not provided the server may choose a version based on its own policies."
       }
     },
     "/v2/models/{model_name}/ready": {
@@ -104,7 +104,7 @@
           }
         },
         "operationId": "model-ready",
-        "description": "The “model ready” health API indicates if a specific model is ready for inferencing. The model name and (optionally) version must be available in the URL. If a version is not provided the server may choose a version based on its own policies."
+        "description": "The \u201cmodel ready\u201d health API indicates if a specific model is ready for inferencing. The model name and (optionally) version must be available in the URL. If a version is not provided the server may choose a version based on its own policies."
       }
     },
     "/v2": {
