@@ -63,5 +63,5 @@ async def test_batch_queue_metrics(
     assert len(batch_request_queue.samples) != 0
 
     last_bucket = batch_request_queue.samples[-1]
-    assert SELDON_MODEL_NAME_LABEL in last_bucket.labels
-    assert last_bucket.labels[SELDON_MODEL_NAME_LABEL] == sum_model.name
+    assert MODEL_NAME_LABEL in last_bucket.labels
+    assert last_bucket.labels[MODEL_NAME_LABEL] == sum_model.name

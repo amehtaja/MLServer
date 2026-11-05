@@ -89,5 +89,5 @@ async def test_custom_metrics(
 
     last_bucket = custom_metric.samples[-1]
     assert last_bucket.value == expected_value
-    assert SELDON_MODEL_NAME_LABEL in last_bucket.labels
-    assert last_bucket.labels[SELDON_MODEL_NAME_LABEL] == custom_metrics_model.name
+    assert MODEL_NAME_LABEL in last_bucket.labels
+    assert last_bucket.labels[MODEL_NAME_LABEL] == custom_metrics_model.name
