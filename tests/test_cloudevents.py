@@ -80,6 +80,5 @@ def test_custom_cloudevents_namespace(
     # Verify custom namespace is used in Ce-Source
     assert CLOUDEVENTS_HEADER_SOURCE in headers
     assert (
-        headers[CLOUDEVENTS_HEADER_SOURCE]
-        == "io.kserve.serving.deployment.test-server"
+        headers[CLOUDEVENTS_HEADER_SOURCE] == "io.kserve.serving.deployment.test-server"
     )
