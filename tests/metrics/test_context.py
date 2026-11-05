@@ -9,8 +9,8 @@ from mlserver.settings import ModelSettings, ModelParameters
 from mlserver.metrics.registry import MetricsRegistry
 from mlserver.metrics.errors import InvalidModelContext
 from mlserver.metrics.context import (
-    SELDON_MODEL_NAME_LABEL,
-    SELDON_MODEL_VERSION_LABEL,
+    MODEL_NAME_LABEL,
+    MODEL_VERSION_LABEL,
     register,
     log,
     _get_labels_from_context,

@@ -9,7 +9,7 @@ from mlserver.server import MLServer
 from mlserver.model import MLModel
 from mlserver.settings import ModelSettings
 from mlserver.types import InferenceRequest, InferenceResponse
-from mlserver.metrics.context import SELDON_MODEL_NAME_LABEL
+from mlserver.metrics.context import MODEL_NAME_LABEL
 
 from ..utils import RESTClient
 from .utils import MetricsClient, find_metric

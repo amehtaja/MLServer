@@ -4,8 +4,8 @@ from .registry import REGISTRY
 from .errors import InvalidModelContext
 from ..context import model_name_var, model_version_var
 
-SELDON_MODEL_NAME_LABEL = "model_name"
-SELDON_MODEL_VERSION_LABEL = "model_version"
+MODEL_NAME_LABEL = "model_name"
+MODEL_VERSION_LABEL = "model_version"
 
 
 def register(name: str, description: str) -> Histogram:

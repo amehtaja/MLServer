@@ -5,7 +5,7 @@ from mlserver.model import MLModel
 from mlserver.types import InferenceRequest
 from mlserver.server import MLServer
 from mlserver.settings import Settings
-from mlserver.metrics.context import SELDON_MODEL_NAME_LABEL
+from mlserver.metrics.context import MODEL_NAME_LABEL
 
 from ..utils import RESTClient
 from .utils import MetricsClient, find_metric
