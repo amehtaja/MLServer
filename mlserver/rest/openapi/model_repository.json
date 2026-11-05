@@ -6,7 +6,7 @@
     "contact": {
       "name": "The KServe Authors",
       "url": "https://kserve.github.io/",
-      "email": "kserve-technical-discuss@lists.lfaidata.foundation"
+      "email": "kserve-maintainers@lists.cncf.io"
     },
     "description": "The Model Repository API allows the user to manage the models running in the inference server. That is, querying the currently available models, load them and unload them."
   },

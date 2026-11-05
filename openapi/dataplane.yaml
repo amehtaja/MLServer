@@ -5,7 +5,7 @@ info:
   contact:
     name: The KServe Authors
     url: 'https://kserve.github.io/'
-    email: kserve-technical-discuss@lists.lfaidata.foundation
+    email: kserve-maintainers@lists.cncf.io
   description: REST protocol to interact with inference servers.
   license:
     name: Apache 2.0
